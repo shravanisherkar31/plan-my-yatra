@@ -25,7 +25,7 @@ body {
       
      font-size: 25px;
     text-align: center;
-    color: rgb(83, 73, 227);
+    color: rgb(45, 68, 36);
     margin-top: 10px;
 }
 
@@ -39,12 +39,12 @@ body {
 
 .sub-description {
     width: 1050px;
-    color: rgb(232, 69, 115);
+    color: rgb(234, 14, 76);
     margin-left: auto;
     margin-right: auto;
     font-weight: bolder;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.6;
 }
 
@@ -52,7 +52,7 @@ body {
     font-weight: bolder;
     margin-left: 20px;
     text-decoration: none;
-    color: rgb(235, 103, 32);
+    color: rgb(233, 90, 14);
     margin-right: 30px;
     font-size: 3.4vh;
 
@@ -62,3 +62,77 @@ body {
 .sub-link i {
     margin-right: 10px;
 }
+
+.input-container {
+    margin-top: 20px;
+    background-color: white;
+    width: 790px;
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    color: brown;
+
+    box-shadow: 10px 14px 15px rgba(0, 0, 0, 0.15);
+
+}
+
+.input-item {
+    width: 140px;
+    border: none;
+    outline: none;
+    color: brown;
+    font-weight: bolder;
+}
+
+.input-item::placeholder {
+    color: brown;
+    font-weight: bolder;
+}
+
+.btn {
+    border: none;
+    padding: 9px 25px;
+    color: white;
+    background-color: brown;
+    border-radius: 20px;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.stat-con {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 50px;
+}
+
+.statbox {
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.statbox h2 {
+    display: inline;
+    margin-left: 10px;
+    color:rgb(189, 81, 9);
+    font-weight: bolder;
+}
+
+.statbox p {
+
+    color:rgb(237, 106, 19);
+    font-weight: bolder;
+}
+
+.statbox i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(237, 106, 19);
+}
+
