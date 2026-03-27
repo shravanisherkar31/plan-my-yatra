@@ -1,0 +1,46 @@
+.nav-item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 5px 10px;
+   flex-wrap: wrap;
+   margin: 0px;
+   background-color: rgb(131, 228, 147);
+   
+}
+
+.logo-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 2.3vh;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.logo{
+    width:12.5vh;
+}
+
+.yatra{
+    color:rgb(233, 78, 30);
+    font-weight: bolder;
+}
+
+.menu{
+    font-weight: bolder;
+    display: flex;
+    gap: 40px;
+    font-size: 3vh;
+}
+
+.link{
+    display: flex;
+    text-decoration: none;
+    color:rgb(216, 124, 62);
+    font-weight: bolder;
+    gap: 10px;
+}
+.auth{
+    color: rgb(205, 26, 26);
+}
